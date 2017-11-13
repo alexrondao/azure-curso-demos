@@ -6,7 +6,12 @@ namespace Storage
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            var connString = "";
+
+
+            Console.WriteLine("Fim");
+            Console.ReadLine();
         }
+
     }
 }
