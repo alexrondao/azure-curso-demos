@@ -1,0 +1,11 @@
+F:\VSTS\demos\mod2\CadCli\CadCli
+--output-path=obj\Release\netcoreapp2.0\
+--application-name=CadCli
+--content-root=F:\VSTS\demos\mod2\CadCli\CadCli
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\Cliente\Index.cshtml
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\Error\E404.cshtml
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\Error\Index.cshtml
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\Home\Index.cshtml
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\Shared\_Layout.cshtml
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\_ViewImports.cshtml
+--file=F:\VSTS\demos\mod2\CadCli\CadCli\Views\_ViewStart.cshtml

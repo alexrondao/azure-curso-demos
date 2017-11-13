@@ -1,0 +1,89 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/css/bootstrap.min.css" integrity="sha384-PsH8R72JQ3SOdhVi3uxftmaW6Vc51MKb0q5P2rRUpPvrszuE4W1povHYgTpBfshb" crossorigin="anonymous">
+    <link href="~/css/cover.css" rel="stylesheet" />
+    
+</head>
+<body>
+    
+    <div class="site-wrapper">
+
+        <div class="site-wrapper-inner">
+            <div class="row">
+                <div class="col-sm-12">
+                    <environment names="Development">
+                        <div class="alert alert-dark" role="alert">
+                            Você está no ambiente de Desenvolvimento.
+                        </div>
+                    </environment>
+                    <environment names="Production">
+                        <div class="alert alert-success" role="alert">
+                            Você está no ambiente de Produção.
+                        </div>
+                    </environment>
+                    <environment names="Stagging">
+                        <div class="alert alert-warning" role="alert">
+                            Você está no ambiente de Homologação.
+                        </div>
+                    </environment>
+                </div>
+            </div>
+
+            <div class="cover-container">
+
+                <header class="masthead clearfix">
+                    <div class="inner">
+                        <h3 class="masthead-brand">xcorp</h3>
+                        <nav class="nav nav-masthead">
+                            <a class="nav-link" asp-controller="Home" asp-action="Index">Home</a>
+                            <a class="nav-link" asp-controller="Cliente" asp-action="Index">Clientes</a>
+                            <a class="nav-link" asp-controller="Produto" asp-action="Index">Produtos</a>
+                        </nav>
+                    </div>
+                </header>
+
+                <main role="main" class="inner cover">
+                    @RenderBody()
+                </main>
+
+                <footer class="mastfoot">
+                    <div class="inner">
+                        <p>Treinamento Azure <a href="http://xcorp-cadcli.azurewebsites.net">xcorp-azure</a>, por <a href="https://twitter.com/alexrondao">alexrondao</a>.</p>
+                    </div>
+                </footer>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <div>
+        <environment names="Development">
+            <div class="alert alert-dark" role="alert">
+                This is a dark alert—check it out!
+            </div>
+        </environment>
+        <environment names="Production">
+            <div class="alert alert-success" role="alert">
+                This is a success alert—check it out!
+            </div>
+        </environment>
+        <environment names="Stagging">
+            <div class="alert alert-warning" role="alert">
+                This is a warning alert—check it out!
+            </div>
+        </environment>
+    </div>
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+</body>
+</html>

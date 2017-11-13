@@ -1,0 +1,11 @@
+F:\VSTS\demos\mod2\CadCli\CadCli\bin\Release\netcoreapp2.0\CadCli.deps.json
+F:\VSTS\demos\mod2\CadCli\CadCli\bin\Release\netcoreapp2.0\CadCli.runtimeconfig.json
+F:\VSTS\demos\mod2\CadCli\CadCli\bin\Release\netcoreapp2.0\CadCli.runtimeconfig.dev.json
+F:\VSTS\demos\mod2\CadCli\CadCli\bin\Release\netcoreapp2.0\CadCli.dll
+F:\VSTS\demos\mod2\CadCli\CadCli\bin\Release\netcoreapp2.0\CadCli.pdb
+F:\VSTS\demos\mod2\CadCli\CadCli\obj\Release\netcoreapp2.0\CadCli.csproj.CoreCompileInputs.cache
+F:\VSTS\demos\mod2\CadCli\CadCli\obj\Release\netcoreapp2.0\CadCli.AssemblyInfoInputs.cache
+F:\VSTS\demos\mod2\CadCli\CadCli\obj\Release\netcoreapp2.0\CadCli.AssemblyInfo.cs
+F:\VSTS\demos\mod2\CadCli\CadCli\obj\Release\netcoreapp2.0\CadCli.dll
+F:\VSTS\demos\mod2\CadCli\CadCli\obj\Release\netcoreapp2.0\CadCli.pdb
+F:\VSTS\demos\mod2\CadCli\CadCli\obj\Release\netcoreapp2.0\CadCli.csprojResolveAssemblyReference.cache

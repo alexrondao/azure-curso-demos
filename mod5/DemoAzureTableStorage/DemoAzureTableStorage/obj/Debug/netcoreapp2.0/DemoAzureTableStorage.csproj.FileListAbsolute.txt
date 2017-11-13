@@ -1,0 +1,11 @@
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\bin\Debug\netcoreapp2.0\DemoAzureTableStorage.deps.json
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\bin\Debug\netcoreapp2.0\DemoAzureTableStorage.runtimeconfig.json
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\bin\Debug\netcoreapp2.0\DemoAzureTableStorage.runtimeconfig.dev.json
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\bin\Debug\netcoreapp2.0\DemoAzureTableStorage.dll
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\bin\Debug\netcoreapp2.0\DemoAzureTableStorage.pdb
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\obj\Debug\netcoreapp2.0\DemoAzureTableStorage.csprojResolveAssemblyReference.cache
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\obj\Debug\netcoreapp2.0\DemoAzureTableStorage.csproj.CoreCompileInputs.cache
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\obj\Debug\netcoreapp2.0\DemoAzureTableStorage.AssemblyInfoInputs.cache
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\obj\Debug\netcoreapp2.0\DemoAzureTableStorage.AssemblyInfo.cs
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\obj\Debug\netcoreapp2.0\DemoAzureTableStorage.dll
+F:\VSTS\azure-curso-demos\mod5\DemoAzureTableStorage\DemoAzureTableStorage\obj\Debug\netcoreapp2.0\DemoAzureTableStorage.pdb
