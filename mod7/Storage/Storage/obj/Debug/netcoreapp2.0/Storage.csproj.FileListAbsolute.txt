@@ -6,3 +6,6 @@ F:\VSTS\azure-curso-demos\mod7\Storage\Storage\obj\Debug\netcoreapp2.0\Storage.c
 F:\VSTS\azure-curso-demos\mod7\Storage\Storage\obj\Debug\netcoreapp2.0\Storage.csproj.CoreCompileInputs.cache
 F:\VSTS\azure-curso-demos\mod7\Storage\Storage\obj\Debug\netcoreapp2.0\Storage.AssemblyInfoInputs.cache
 F:\VSTS\azure-curso-demos\mod7\Storage\Storage\obj\Debug\netcoreapp2.0\Storage.AssemblyInfo.cs
+F:\VSTS\azure-curso-demos\mod7\Storage\Storage\bin\Debug\netcoreapp2.0\Storage.pdb
+F:\VSTS\azure-curso-demos\mod7\Storage\Storage\obj\Debug\netcoreapp2.0\Storage.dll
+F:\VSTS\azure-curso-demos\mod7\Storage\Storage\obj\Debug\netcoreapp2.0\Storage.pdb
