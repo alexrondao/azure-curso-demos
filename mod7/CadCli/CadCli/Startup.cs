@@ -27,9 +27,11 @@ namespace CadCli
             services.AddMvc();
             services.AddScoped<CadCliDataContext>();
             services.Configure<Keys>(_configuration.GetSection("Keys"));
-            services.AddDistributedRedisCache(o => {
-                o.Configuration = _configuration.GetConnectionString("Redis");
-            });
+
+            //services.AddApplicationInsightsTelemetry();
+            //services.AddDistributedRedisCache(o => {
+            //    o.Configuration = _configuration.GetConnectionString("Redis");
+            //});
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

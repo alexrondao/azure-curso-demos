@@ -31,3 +31,14 @@ F:\VSTS\azure-curso-demos\mod5\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.Asse
 F:\VSTS\azure-curso-demos\mod5\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.AssemblyInfo.cs
 F:\VSTS\azure-curso-demos\mod5\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.dll
 F:\VSTS\azure-curso-demos\mod5\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.pdb
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\bin\Debug\netcoreapp2.0\CadCli.deps.json
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\bin\Debug\netcoreapp2.0\CadCli.runtimeconfig.json
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\bin\Debug\netcoreapp2.0\CadCli.runtimeconfig.dev.json
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\bin\Debug\netcoreapp2.0\CadCli.dll
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\bin\Debug\netcoreapp2.0\CadCli.pdb
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.csprojResolveAssemblyReference.cache
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.csproj.CoreCompileInputs.cache
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.AssemblyInfoInputs.cache
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.AssemblyInfo.cs
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.dll
+F:\VSTS\azure-curso-demos\mod7\CadCli\CadCli\obj\Debug\netcoreapp2.0\CadCli.pdb

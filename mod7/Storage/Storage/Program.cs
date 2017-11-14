@@ -31,7 +31,7 @@ namespace Storage
             Console.WriteLine("Baixando arquivo");
 
             var blob = container.GetBlockBlobReference(file);
-            var path = $"f:\files\new-{new Random().Next(int.MaxValue)}.jpg";
+            var path = $@"f:\files\new-{new Random().Next(int.MaxValue)}.jpg";
 
             using (var fs = File.OpenWrite(path))
             {

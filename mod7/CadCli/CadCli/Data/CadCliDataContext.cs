@@ -20,7 +20,7 @@ namespace CadCli.Data
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
         {
             //optionsBuilder.UseSqlServer(@"Data Source=(localdb)\ProjectsV13;Initial Catalog=CadCliDB;Integrated Security=True;Connect Timeout=30;Encrypt=False;TrustServerCertificate=True;ApplicationIntent=ReadWrite;MultiSubnetFailover=False");
-            optionsBuilder.UseSqlServer(_configuration.GetConnectionString("AzuretConnection"));
+            optionsBuilder.UseSqlServer(_configuration.GetConnectionString("LocalConnection"));
         }
 
         public DbSet<Cliente> Clientes { get; set; }
