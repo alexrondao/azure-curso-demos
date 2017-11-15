@@ -1,0 +1,51 @@
+﻿
+@model  IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "Listagem de Clientes";
+}
+
+<h2>Listagem de Clientes</h2>
+
+<div>
+    <a asp-action="Add" class="btn btn-info">Novo</a>
+</div>
+
+<table class="table table-sm table-hover table-dark">
+    <thead>
+        <tr>
+            <th scope="col">Id</th>
+            <th scope="col">Nome</th>
+            <th scope="col">Idade</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Imagem</th>
+        </tr>
+    </thead>
+    <tbody>
+
+        @foreach (var cli in Model)
+        {
+            var foto = String.Empty;
+            if(!String.IsNullOrEmpty(cli.NomeArquivo) && !String.IsNullOrEmpty(cli.UrlArquivo))
+            {
+                var imagemArray = System.IO.File.ReadAllBytes($@"{cli.UrlArquivo}{cli.NomeArquivo}");
+                foto = Convert.ToBase64String(imagemArray);
+            }
+            <tr>
+                <th scope="row" class="bg-primary">@cli.Id</th>
+                <td>@cli.Nome</td>
+                <td>@cli.Idade</td>
+                <td>@cli.Sexo</td>
+                <td>
+                    @*<img width="32" height="32" src="data:image/jpeg;base64, @foto" alt="@cli.Nome" />*@
+                    <img width="32" height="32" src="data:image/jpeg;base64, @ViewBag.Foto" alt="@cli.Nome" />
+                </td>
+            </tr>
+        }
+        
+    </tbody>
+</table>
+
+<div>
+    <a asp-action="Todos" class="tn btn-warning">Todos</a>
+</div>

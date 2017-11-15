@@ -1,0 +1,47 @@
+﻿@model CadCli.Models.Cliente
+
+@{
+    ViewData["Title"] = "Novo Cliente";
+}
+
+<h2>Novo</h2>
+
+<h4>Cliente</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Save" method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label asp-for="Nome"></label>
+                <input class="form-control" type="text" asp-for="Nome" />
+                <span asp-validation-for="Nome" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Idade"></label>
+                <input class="form-control" type="number" asp-for="Idade" />
+                <span asp-validation-for="Idade" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Sexo"></label>
+                <select class="form-control" type="text" asp-for="Sexo" asp-items="Html.GetEnumSelectList<Sexo>()">
+                    <option selected="selected">Selecione...</option>
+                </select>
+                <span asp-validation-for="Sexo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label>Selecione a foto</label>
+                <input type="file" class="form-control" name="imagem" />
+            </div>
+            <div>
+                <button class="btn btn-success">Salvar local</button>
+                <button class="btn btn-success" asp-action="Save2">Salvar na nuvem</button>
+            </div>
+        </form>
+
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Voltar</a>
+</div>
+
