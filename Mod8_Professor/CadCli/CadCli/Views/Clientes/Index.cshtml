@@ -1,0 +1,39 @@
+﻿@model IEnumerable<Cliente>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+
+<h2>Listagem de Clientes</h2>
+
+<table class="table">
+
+    <thead>
+        <tr>
+            <th>Id</th>
+            <th>Nome</th>
+            <th>Idade</th>
+            <th>Sexo</th>
+        </tr>
+    </thead>
+
+
+    <tbody>
+
+        @foreach (var cli in Model)
+        {
+            <tr>
+                <td>@cli.Id</td>
+                <td>@cli.Nome</td>
+                <td>@cli.Idade</td>
+                <td>@cli.Sexo</td>
+            </tr>
+        }
+
+        
+    </tbody>
+
+
+</table>
+<a href="@Url.Action("Todos")" class="btn btn-success">Todos</a>

@@ -1,23 +1,22 @@
-﻿using System;
+﻿using CadCli.Data;
+using CadCli.Models;
+using CadCli.Service;
+using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
+using Newtonsoft.Json;
+using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
-using Microsoft.AspNetCore.Mvc;
-using CadCli.Data;
-using Microsoft.EntityFrameworkCore;
-using CadCli.Models;
-using CadCli.Services;
-using Newtonsoft.Json;
 
 namespace CadCli.Controllers
 {
     [Route("api/v1/pedidos")]
-    public class PedidoController : Controller
+    public class PedidosController:Controller
     {
         private readonly CadCliDataContext _ctx;
-       
-
-        public PedidoController(CadCliDataContext ctx)
+        public PedidosController(CadCliDataContext ctx)
         {
             _ctx = ctx;
         }
@@ -26,10 +25,6 @@ namespace CadCli.Controllers
         public async Task<IActionResult> Get()
         {
             var model = await _ctx.Pedidos.ToListAsync();
-
-            if (model == null)
-                return NotFound();
-
             return Ok(model);
         }
 
@@ -53,12 +48,15 @@ namespace CadCli.Controllers
             var service = new QueueService();
             service.Enviar(JsonConvert.SerializeObject(pedido));
 
-            return CreatedAtAction("Get", pedido.Id);
+            return CreatedAtAction("Get", pedido);
         }
+
+
 
         protected override void Dispose(bool disposing)
         {
             _ctx.Dispose();
         }
+
     }
 }
